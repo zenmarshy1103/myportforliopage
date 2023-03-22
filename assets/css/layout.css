@@ -1,0 +1,18 @@
+.navigation {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section p {
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 33px;
+}
+
+.author {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

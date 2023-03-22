@@ -1,0 +1,11 @@
+.navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav ul {
+    font-size: 1rem;    
+    
+}
+
