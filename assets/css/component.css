@@ -1,8 +1,6 @@
 nav li {
     list-style: none;
-    display: inline;
-    
-   
+    display: inline;    
 }
 
 .author {
@@ -10,6 +8,19 @@ nav li {
     margin: 0;      
 }
 
+.navigation a {
+    margin: 0 20px;
+}
+
+.navigation ul li a {    
+    color: black;
+    font-size: 1em;
+}
+
+.projects {    
+    height: 100%;
+    width: 100%;
+}
 
 
 

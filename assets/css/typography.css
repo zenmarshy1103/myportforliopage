@@ -1,7 +1,7 @@
 .navigation a {
     text-transform: uppercase;
     text-decoration: none;
-    margin: 0 20px;
+    
 }
 
 nav ul {
@@ -9,3 +9,27 @@ nav ul {
     
 }
 
+.projects h2 {
+    text-transform: uppercase;
+}
+
+/* .projects h2::first-letter {
+    font-size:50px;
+    color: orange;
+} */
+
+.author p::first-line {
+    color: gold;
+} 
+
+.projects h2::before {
+    content: "[";
+    color: orange;
+    font-size:  50px;
+}
+
+.projects h2::after {
+    content: "]";
+    color: orange;
+    font-size:  50px;
+}
