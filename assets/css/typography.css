@@ -13,10 +13,7 @@ nav ul {
     text-transform: uppercase;
 }
 
-/* .projects h2::first-letter {
-    font-size:50px;
-    color: orange;
-} */
+
 
 .author p::first-line {
     color: gold;
@@ -32,4 +29,13 @@ nav ul {
     content: "]";
     color: orange;
     font-size:  50px;
+}
+
+main h1 {
+    text-transform: capitalize;
+    color: orange;
+}
+
+.about-me-name {
+    text-transform: capitalize;
 }
