@@ -20,15 +20,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="./assets/js/script.js" defer></script>
   </head>
-
   <body>
     <header>
-      <section class="author">
+      <section class="author left-space">
         <h1 class="full-name">jason liu</h1>
-        <p class="title">web developer</p>
+        <p class="title left-space">web developer</p>
       </section>
-      <nav class="navigation">
+      <nav class="navigation right-space">
         <ul>
           <li>
             <a href="./index.html">homepage</a>
@@ -43,18 +43,17 @@
       </nav>
     </header>
     <main>
-        <div class="feedback-container">
-            <div>
-                <h1>feedback</h1>
-                <p>Please let me know what your would like me to improve on this site or any projects that you would like me to make. Thank you</p>
-            </div>
-            <div class="advice-text-editor">
-
-            </div>
-            
-        </div>
-        
-
+      <div class="feedback-container left-space">
+        <h1>feedback</h1>
+        <p>
+         <span>please</span> let me know what your would like me to improve on this site or any projects that you would like me to make. <span>thank</span> you.
+        </p>
+      </div>      
+      <div class="advice-text-editor left-space">
+        <input type="text" data-suggestion>
+        <button onclick="addSuggestion()">add suggestion</button>
+        <ul data-suggestion-list></ul>
+      </div>        
     </main>
     <footer class="footer-col">
       <ul>
@@ -68,6 +67,6 @@
           <i class="fa-brands fa-linkedin"></i>
         </li>
       </ul>
-    </footer>
-  </body>
+    </footer>    
+  </body>  
 </html>
